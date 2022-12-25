@@ -264,7 +264,7 @@ footer{
 }
 @media screen and (max-width:400px){
   body{
-    background-color: lightcoral;
+    background-color: lightblue;  
   }
   .caja1-1{
     display: grid;
