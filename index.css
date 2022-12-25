@@ -247,6 +247,9 @@ footer{
   body{
     background-color: lightblue;
   }
+  .textA1{
+    width: 100%;
+  }
   .contenedor-caja{
     display: inline-block;
     
@@ -258,4 +261,17 @@ footer{
     box-sizing: none;
   } */
   
+}
+@media screen and (max-width:400px){
+  body{
+    background-color: lightcoral;
+  }
+  .caja1-1{
+    display: grid;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .textA1{
+    margin: 0;
+  }
 }
